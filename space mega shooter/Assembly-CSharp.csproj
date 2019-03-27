@@ -70,7 +70,12 @@
     <Compile Include="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
+    <Compile Include="Assets\AsteroidCollision.cs" />
+    <Compile Include="Assets\AsteroidEmitterScript.cs" />
+    <Compile Include="Assets\AsteroidScript.cs" />
     <Compile Include="Assets\BackgroundScroller.cs" />
+    <Compile Include="Assets\BorderCollider.cs" />
+    <Compile Include="Assets\DelayedDestroy.cs" />
     <Compile Include="Assets\PlayerShipScript.cs" />
     <Compile Include="Assets\ShotScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
@@ -290,6 +295,12 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/develop/test-works/space-mega-shooter/space mega shooter/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>C:/develop/test-works/space-mega-shooter/space mega shooter/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/develop/test-works/space-mega-shooter/space mega shooter/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -298,12 +309,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>C:/develop/test-works/space-mega-shooter/space mega shooter/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/develop/test-works/space-mega-shooter/space mega shooter/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/develop/test-works/space-mega-shooter/space mega shooter/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
